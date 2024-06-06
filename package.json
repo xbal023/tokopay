@@ -1,0 +1,41 @@
+{
+  "name": "@bolaxdd/tokopay",
+  "version": "1.0.0",
+  "description": "tokopay is a payment gateway free to use",
+  "main": "index.js",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "example": "npm run build && node example/index"
+  },
+  "keywords": [
+    "payment",
+    "tokopay",
+    "payment",
+    "gateway",
+    "bot",
+    "whatsapp"
+  ],
+  "author": "xbal023",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xbal023/tokopay/issues"
+  },
+  "homepage": "https://github.com/xbal023/tokopay",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "undici": "^6.18.2"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^20.14.2",
+    "crypto": "^1.0.1",
+    "typescript": "^5.4.5"
+  }
+}
